@@ -86,7 +86,7 @@ jobs:
       - name: Run tests
         run: |
           cargo check
-          cargo test
+          cargo test --jobs 1
 
   lint:
     runs-on: ubuntu-latest
