@@ -1,2 +1,2 @@
 [target.'cfg(windows)']
-rustflags = ["-C", "link-args=/STACK:8388608", "-C", "debuginfo=0"]
+rustflags = ["-C", "debuginfo=0"]
