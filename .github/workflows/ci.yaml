@@ -82,6 +82,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
+          toolchain: stable-x86_64-pc-windows-gnu
       # - uses: Swatinem/rust-cache@v1
       - name: Run tests
         run: |
